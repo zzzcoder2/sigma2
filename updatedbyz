@@ -3004,13 +3004,13 @@ HeroAnim_Button.MouseButton1Click:Connect(function()
 	local Animate = plr.Character.Animate
 	Animate.Disabled = true
 	StopAnim()
-	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616111295"
-	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616113536"
-	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616122287"
-	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616117076"
-	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616115533"
-	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616104706"
-	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616108001"
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=92080889861410"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=74451233229259"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=110358958299415"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=84823630062362"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=119846112151352"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=134630013742019"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=79090109939093"
 	plr.Character.Humanoid:ChangeState(3)
 	Animate.Disabled = false
 end)
