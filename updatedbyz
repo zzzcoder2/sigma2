@@ -412,7 +412,7 @@ TitleBarLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TitleBarLabel.BorderSizePixel = 0
 TitleBarLabel.Size = UDim2.new(1, 0, 0, 30)
 TitleBarLabel.Font = Enum.Font.Unknown
-TitleBarLabel.Text = "____/SYSTEMBROKEN\\___"
+TitleBarLabel.Text = "____/ZZZisSoSexy\\___"
 TitleBarLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
 TitleBarLabel.TextScaled = true
 TitleBarLabel.TextSize = 14.000
@@ -3548,7 +3548,7 @@ end)
 task.spawn(function()
 	while task.wait(10) do
 		pcall(function()
-			local GuiVersion = loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/version"))()
+			local GuiVersion = loadstring(game:HttpGet("https://raw.githubusercontent.com/zzzcoder2/sigma2/refs/heads/main/cool"))()
 			if version<GuiVersion then
 				SendNotify("System Broken","You are not using the latest version, please run the script again.",5)
 				task.wait(5)
