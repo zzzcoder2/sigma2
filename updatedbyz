@@ -1371,7 +1371,7 @@ VampireAnim_Button.BorderSizePixel = 0
 VampireAnim_Button.Position = UDim2.new(0, 25, 0, 25)
 VampireAnim_Button.Size = UDim2.new(0, 150, 0, 30)
 VampireAnim_Button.Font = Enum.Font.Oswald
-VampireAnim_Button.Text = "Vampire"
+VampireAnim_Button.Text = "AdidasSports"
 VampireAnim_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 VampireAnim_Button.TextScaled = true
 VampireAnim_Button.TextSize = 14.000
@@ -1386,7 +1386,7 @@ HeroAnim_Button.BorderSizePixel = 0
 HeroAnim_Button.Position = UDim2.new(0, 210, 0, 25)
 HeroAnim_Button.Size = UDim2.new(0, 150, 0, 30)
 HeroAnim_Button.Font = Enum.Font.Oswald
-HeroAnim_Button.Text = "Hero"
+HeroAnim_Button.Text = "Football"
 HeroAnim_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 HeroAnim_Button.TextScaled = true
 HeroAnim_Button.TextSize = 14.000
@@ -1416,7 +1416,7 @@ MageAnim_Button.BorderSizePixel = 0
 MageAnim_Button.Position = UDim2.new(0, 210, 0, 75)
 MageAnim_Button.Size = UDim2.new(0, 150, 0, 30)
 MageAnim_Button.Font = Enum.Font.Oswald
-MageAnim_Button.Text = "Mage"
+MageAnim_Button.Text = "ZaysZestyWalk"
 MageAnim_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 MageAnim_Button.TextScaled = true
 MageAnim_Button.TextSize = 14.000
@@ -2601,7 +2601,7 @@ Fly_Button.MouseButton1Click:Connect(function()
 			local bv = Instance.new("BodyVelocity", UpperTorso)
 			bv.velocity = Vector3.new(0,0.1,0)
 			bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
-			PlayAnim(10714347256,4,0)
+			PlayAnim(15698404340,1,0.3)
 			repeat task.wait()
 				plr.Character.Humanoid.PlatformStand = true
 				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
@@ -2636,7 +2636,7 @@ Fly_Button.MouseButton1Click:Connect(function()
 		KeyDownFunction = mouse.KeyDown:connect(function(key)
 			if key:lower() == "w" then
 				ctrl.f = 1
-				PlayAnim(10714177846,4.65,0)
+				PlayAnim(99384245425157,1.94,1)
 			elseif key:lower() == "s" then
 				ctrl.b = -1
 				PlayAnim(10147823318,4.11,0)
@@ -2652,16 +2652,16 @@ Fly_Button.MouseButton1Click:Connect(function()
 		KeyUpFunction = mouse.KeyUp:connect(function(key)
 			if key:lower() == "w" then
 				ctrl.f = 0
-				PlayAnim(10714347256,4,0)
+				PlayAnim(15698404340,1,0.3)
 			elseif key:lower() == "s" then
 				ctrl.b = 0
-				PlayAnim(10714347256,4,0)
+				PlayAnim(15698404340,1,0.3)
 			elseif key:lower() == "a" then
 				ctrl.l = 0
-				PlayAnim(10714347256,4,0)
+				PlayAnim(15698404340,1,0.3)
 			elseif key:lower() == "d" then
 				ctrl.r = 0
-				PlayAnim(10714347256,4,0)
+				PlayAnim(15698404340,1,0.3)
 			end
 		end)
 		Fly()
@@ -3034,13 +3034,13 @@ MageAnim_Button.MouseButton1Click:Connect(function()
 	local Animate = plr.Character.Animate
 	Animate.Disabled = true
 	StopAnim()
-	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=707742142"
-	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=707855907"
-	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
-	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
-	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=707853694"
-	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=707826056"
-	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+	Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=118832222982049"
+	Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=76049494037641"
+	Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=92072849924640"
+	Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=72301599441680"
+	Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=104325245285198"
+	Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=131326830509784"
+	Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=121152442762481"
 	plr.Character.Humanoid:ChangeState(3)
 	Animate.Disabled = false
 end)
